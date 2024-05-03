@@ -46,7 +46,7 @@ nav ul li a {
 }
 
 .produto img {
-    max-width: 100%;
+    max-width: 90%;
 }
 
 .produto h2 {
@@ -60,7 +60,7 @@ nav ul li a {
 
 footer {
     background-color: #333;
-    color: #2600ff;
+    color: #000000;
     text-align: center;
     padding: 20px 0;
     position: fixed;
@@ -73,4 +73,28 @@ button {
     background-color: #000000;
 border-radius: 10px;
 color: #2600ff;
+}
+
+
+
+.produto img {
+    max-width: 90%;
+    transition: transform 0.3s ease; /* Adiciona uma transição suave para a transformação */
+}
+
+.produto img:hover {
+    transform: translateY(-12px); /* Move a imagem para cima em 10 pixels */
+}
+
+
+
+.produto img {
+    max-width: 90%;
+    border-radius: 10px; /* Adiciona bordas arredondadas */
+    padding: 5px; /* Adiciona espaço ao redor da imagem */
+    transition: transform 0.3s ease; /* Adiciona uma transição suave para a transformação */
+}
+
+.produto img:hover {
+    transform: translateY(-12px); /* Move a imagem para cima em 12 pixels */
 }

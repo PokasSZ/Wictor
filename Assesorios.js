@@ -10,6 +10,10 @@ document.addEventListener("DOMContentLoaded", function() {
         { nome: "Notebook Gamer Acer Nitro 5 AN517-54-765V Intel core I7 11ª ger. 16GB RAM 512GB SSD (NVIDIA RTX 3050) 17,3 LED FHD IPS 144Hz Linux Gutta Preto com vermelho", preco: "R$ 4.799,00", imagem: "Noot.jpg" },
         { nome: "Cadeira Gamer Fair Play", preco: "R$ 899,00", imagem: "Cadeira.jpg" },
         { nome: "Teclado Gamer, Razer Huntsman Mini 60%", preco: "R$ 699,00", imagem: "TecladoBranco.jpg" },
+        { nome: "Placa de Video NVIDIA GeForce RTX 3090", preco: "R$ 2.199,00", imagem: "Placadevideo3090.jpg" },
+        { nome: "Mouse Pad Liquid", preco: "R$ 599,00", imagem: "Mousepadliquid.jpg" },
+        { nome: "Processador AMD Ryzen 9 7950X AM5", preco: "R$ 4.499,00", imagem: "Processadorry.webp" },
+        { nome: "Cadeira Gamer Fox Racer", preco: "R$ 799,00", imagem: "CadeiraAzul.jpg" },
     ];
 
     const containerProdutos = document.getElementById("produtos");
